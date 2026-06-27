@@ -1,0 +1,11 @@
+name: emplink
+description: Adds an Empornium search link icon next to the favorite heart on performer pages.
+version: 1.0.3
+url: https://github.com/stashapp/stash
+ui:
+  javascript:
+    - emplink.js
+  css:
+    - emplink.css
+  assets:
+    /: .

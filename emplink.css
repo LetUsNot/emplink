@@ -1,0 +1,19 @@
+#performer-page .name-icons .emp-link-button {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+  padding: 0.25rem 0.4rem;
+  line-height: 1;
+}
+
+#performer-page .name-icons .emp-link-button .emp-link-icon {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  object-fit: contain;
+}
+
+#performer-page .name-icons .emp-link-button:hover .emp-link-icon {
+  opacity: 0.85;
+}
