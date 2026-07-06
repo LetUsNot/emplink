@@ -1,6 +1,6 @@
 name: emplink
-description: Adds configurable Empornium and Bunkr albums search link icons next to the favorite heart on performer pages.
-version: 1.1.0
+description: Adds configurable Empornium and Bunkr albums search links next to the favorite heart on performer pages, with dropdowns for aliases and disambiguation.
+version: 1.2.0
 url: https://github.com/LetUsNot/emplink
 ui:
   javascript:

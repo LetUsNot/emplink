@@ -1,5 +1,6 @@
 #performer-page .name-icons .emp-link-button,
-#performer-page .name-icons .bunkr-link-button {
+#performer-page .name-icons .bunkr-link-button,
+#performer-page .name-icons .emplink-site-dropdown .dropdown-toggle {
   display: inline-flex;
   align-items: center;
   vertical-align: middle;
@@ -8,8 +9,49 @@
   line-height: 1;
 }
 
+#performer-page .name-icons .emplink-site-dropdown {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+#performer-page .name-icons .emplink-site-dropdown .dropdown-menu.emplink-search-menu {
+  font-size: 0.875rem;
+  z-index: 1050;
+  min-width: 10rem;
+  padding: 0.25rem 0;
+  border: 1px solid rgba(16, 22, 26, 0.4);
+  box-shadow: 0 8px 10px 2px rgb(0 0 0 / 30%);
+  background-color: var(--bs-secondary, #394b59);
+  color: var(--bs-body-color, #f5f8fa);
+}
+
+#performer-page .name-icons .emplink-site-dropdown .dropdown-menu.show {
+  display: block;
+}
+
+#performer-page .name-icons .emplink-site-dropdown .dropdown-menu .dropdown-item {
+  color: var(--bs-body-color, #f5f8fa);
+  padding: 0.35rem 1rem;
+}
+
+#performer-page .name-icons .emplink-site-dropdown .dropdown-menu .dropdown-item:hover,
+#performer-page .name-icons .emplink-site-dropdown .dropdown-menu .dropdown-item:focus {
+  background-color: rgba(138, 155, 168, 0.15);
+  color: var(--bs-body-color, #f5f8fa);
+}
+
+#performer-page .name-icons .emplink-site-dropdown .dropdown-toggle::after {
+  margin-left: 0.25rem;
+  vertical-align: middle;
+  border-top-color: currentColor;
+}
+
 #performer-page .name-icons .emp-link-button .emp-link-icon,
-#performer-page .name-icons .bunkr-link-button .bunkr-link-icon {
+#performer-page .name-icons .bunkr-link-button .bunkr-link-icon,
+#performer-page .name-icons .emplink-site-dropdown .emp-link-icon,
+#performer-page .name-icons .emplink-site-dropdown .bunkr-link-icon {
   display: block;
   width: 1rem;
   height: 1rem;
@@ -17,7 +59,9 @@
 }
 
 #performer-page .name-icons .emp-link-button:hover .emp-link-icon,
-#performer-page .name-icons .bunkr-link-button:hover .bunkr-link-icon {
+#performer-page .name-icons .bunkr-link-button:hover .bunkr-link-icon,
+#performer-page .name-icons .emplink-site-dropdown .dropdown-toggle:hover .emp-link-icon,
+#performer-page .name-icons .emplink-site-dropdown .dropdown-toggle:hover .bunkr-link-icon {
   opacity: 0.85;
 }
 
